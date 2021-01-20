@@ -1,6 +1,6 @@
 #home/OCR
 
-DATA_DIR='/home/OCR/data/'
+DATA_DIR='OCR/data/'
 
 TRAIN_DATA_FILENAME = DATA_DIR + 'train-images'
 TRAIN_LABEL_FILENAME = DATA_DIR + 'train-labels'

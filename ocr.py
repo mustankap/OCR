@@ -107,8 +107,8 @@ def knn(X_train, y_train, X_test, k=3):
 def main():
 	x_train = read_images(TRAIN_DATA_FILENAME,1000)
 	y_train = read_labels(TRAIN_LABELS_FILENAME,1000)
-	x_test = read_images(TEST_DATA_FILENAME,5)
-	y_test = read_labels(TEST_LABELS_FILENAME,5)
+	x_test = read_images(TEST_DATA_FILENAME,50)
+	y_test = read_labels(TEST_LABELS_FILENAME,50)
 	
 	if DEBUG:
 		for idx, test_sample in enumerate(x_test):

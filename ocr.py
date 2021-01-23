@@ -79,8 +79,8 @@ def get_training_distances_for_test_sample(X_train, test_sample):
 	
 def get_most_frequent_element(l):
 	return max(l, key=l.count)
-'''funning k nearest neighbours for every sample which we had to find out we are comparing it to all the other digits
-getting the ones which were closest and out them we get the top k and hen we get he most frequen out of those top k'''
+'''running k nearest neighbours for every sample which we had to find out we are comparing it to all the other digits
+getting the ones which were closest and out them we get the top k and then we get he most frequen out of those top k'''
 def knn(X_train, y_train, X_test, k=3):
 	y_pred = []
 	for test_sample_idx, test_sample in enumerate(X_test):
